@@ -1,0 +1,46 @@
+<!-- Tarea Formulario: Crear un Formulario de Registro para un Sitio Web para reservar una hora al Doctor. debe incluir nombre del paciente, fecha de cita, fecha_nacimiento, Sintomas del Paciente, Ciudad (lista_desplegable), Casilla de Verificacion -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Formularios</title>
+</head>
+
+<body>
+
+    <h2>Formulario de Registro - Reserva de Hora</h2>
+
+    <form action="/enviar-reserva" method="POST">
+        <label for="nombre">Nombre del Paciente:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        <br>
+        <label for="fecha_cita">Fecha de la Cita:</label>
+        <input type="date" id="fecha_cita" name="fecha_cita" required>
+        <br>
+        <label for="ciudad">Ciudad:</label>
+        <select id="ciudad" name="ciudad" required>
+            <option value="">Seleccione una ciudad</option>
+            <option value="santiago">Santiago</option>
+            <option value="concepcion">Concepción</option>
+            <option value="valparaiso">Valparaíso</option>
+        </select>
+        <br>
+
+        <label for="sintomas">Síntomas del Paciente:</label><br>
+        <textarea id="sintomas" name="sintomas" rows="4" cols="50"
+            placeholder="Describa sus síntomas aquí..."></textarea>
+        <br>
+        <input type="checkbox" id="terminos" name="terminos" required>
+        <label for="terminos">Acepto el tratamiento de mis datos personales.</label>
+        <br>
+        <button type="submit">Reservar Hora</button>
+    </form>
+
+</body>
+
+</html>
