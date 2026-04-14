@@ -1,31 +1,13 @@
+/* Seleccion a traves de etiquetas */
 h1 {
-    color: royalblue;
+    color: chartreuse;
 }
-
-
-p {
-    text-align: right;
+/* Seleccion a traves de clases */
+.rojo
+{
+    color: red;
 }
-
-.is-centered {
-    text-align: center;
-}
-
-
-.is-orange {
-    color: darkorange;
-}
-
-#container {
-   width: 200px;
-   height: 200px;
-   padding: 10px;
-}
-
-#avatar {
-   width: 150px;
-   height: 150px;
-   border-radius: 50%;
-   margin-top: 20px;
-   margin-left: 25px;
+/* Seleccion a traves de ID */
+#amarillo{
+    color: yellow;
 }
