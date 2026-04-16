@@ -1,0 +1,84 @@
+* {
+   /* Selector comodin (Selecciona todos los elementos html) */
+   /*outline: 2px dashed crimson; */
+   /* Linea externa de 2px */
+   margin: 0;
+   /* Formatea espacios externos de elemtnos html */
+   padding: 0;
+   /* Formatea espacios internos de elemtnos html */
+   box-sizing: border-box;
+   /* Considera nordes dentro de tamaño de elementos html */
+}
+
+body {
+   padding: 40px;
+}
+
+h1 {
+   color: rebeccapurple;
+}
+
+.green {
+   color: mediumseagreen;
+}
+
+#red {
+   color: tomato;
+}
+
+.quote p {
+   color: darkslategray;
+   font-weight: italic;
+}
+
+.quote h4 {
+   color: rgb(146, 194, 194);
+   font-weight: bold;
+}
+
+.header>img {
+   height: 50px;
+}
+
+form {
+   padding: 20px;
+}
+
+#container p {
+   font-size: 16px;
+   background-color: #444;
+   color: white;
+}
+
+#container p.highlight {
+   font-weight: bold;
+   color: gold;
+}
+
+input[type="text"] {
+   border: 2px solid royalblue;
+   padding: 3px;
+}
+
+input[type="submit"] {
+   color: white;
+   background-color: mediumvioletred;
+   border: none;
+   padding: 5px 20px;
+   cursor: pointer;
+}
+
+.color_nombre {
+   color: green;
+   background-color: purple;
+}
+
+.color_rgb {
+   color: rgb(201, 34, 201);
+   background-color: rgb(7, 255, 90);
+}
+
+.color_hex {
+   color: #0000ff;
+   background-color: #0a0606;
+}
