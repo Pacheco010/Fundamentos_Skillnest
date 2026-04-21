@@ -2,39 +2,89 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
+   font-family: sans-serif;
 }
+
 .Centrado {
    text-align: center;
 }
+
 .encabezado {
    padding: 40px;
 }
+
 .Titulo {
-   margin-bottom: 20px;
+   margin-bottom: 10px;
 }
-.Centrado a {
+
+.encabezado a {
    text-decoration: none;
    font-weight: bold;
+   color: #008DD2;
 }
+
 .container {
-   width: 1200px;
+   width: 1000px;
    margin: 0 auto;
 }
-.caja {
-   display: inline-block;
-   padding: 75px 30px;
-   color:white;
-   font-weight: bold;
-   width: 300px;
-   border-radius: 10px;
 
+
+.caja-total {
+   display: inline-block;
+   width: 300px;
+   margin: 10px;
+   vertical-align: top;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+.header-caja {
+   padding: 20px;
+   color: white;
+   font-weight: bold;
+}
+
+
+.cuerpo-caja {
+   background-color: #f9f9f9;
+   padding: 30px 20px;
+}
+
+.cuerpo-caja p {
+   margin-bottom: 15px;
+   font-size: 14px;
+   color: #555;
+}
+
+.cuerpo-caja a {
+   font-size: 13px;
+   font-weight: bold;
+   color: #3f51b5;
+}
+
+
 .azul {
-   background-color: #008DD2;
+   background-color: #4A9CE1;
 }
+
 .rojo {
-   background-color: #EE433A;
+   background-color: #E95548;
 }
+
 .verde {
-   background-color: #00C56A;
+   background-color: #47B475;
+}
+
+.amarillo {
+   background-color: #FACD4F;
+}
+
+.morado {
+   background-color: #9F68C1;
+}
+
+.cian {
+   background-color: #3998AA;
 }
