@@ -2,6 +2,7 @@
    padding:0;
    margin:0;
    box-sizing: border-box;
+   outline: red 1px solid;
 }
 .encabezado {
    width:100%;
@@ -22,7 +23,14 @@
 .aceptar {
    width: 100px;
    height: 50px;
+   cursor: pointer;
+   
 }
+
+.row {
+   padding: 30px;
+}
+
 .caja1 {
    margin: 0 auto;
    width: 80%;
@@ -39,4 +47,120 @@
    color: blue;
    margin-top: 15px;
    font-style: italic;
+}
+
+/*
+📦 Manejo del contenido con overflow: hidden, scroll, auto
+*/
+
+.caja {
+   width: 200px;
+   height: 100px;
+   display: inline-block;
+}
+
+.example1 {
+   height: 100px;
+   width: 300px;
+   background-color: lightcoral;
+}
+
+.example2 {
+   height: 100px;
+   width: 300px;
+   background-color: lightblue;
+}
+
+.example3 {
+   height: 100px;
+   width: 300px;
+   background-color: lime;
+}
+
+.hidden {
+   overflow: hidden;
+}
+
+.scroll {
+   overflow: scroll;
+}
+
+.auto {
+   overflow: auto;
+}
+
+/* Fondos y Colores */
+.banner {
+   height: 230px;
+   width: 100%;
+   background: red url("/STACK_CSS/06_tamanos/static/images/banner.png") no-repeat center center;
+   background-size: 110%;
+}
+
+.cancelar {
+   border: 2px dotted red;
+   padding: 15px;
+   cursor: pointer;
+
+}
+
+.articulo {
+   border: 2px solid black;
+   height: 50px;
+   width: 100px;
+}
+
+.boton_redondeado {
+   padding: 10px 40px;
+   border-radius: 15px;
+   cursor: pointer;
+
+}
+
+.caja_redondeada {
+   cursor: pointer;
+   width: 40px;
+   height: 40px;
+   padding: 12px 16px;
+   background-color: rgb(0, 0, 0);
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   border-radius: 50%;
+}
+
+.cajitas {
+   width: 150px;
+   height: 40px;
+   outline: solid 1px rgb(17, 0, 255);
+}
+
+.box1 {
+   background-color: blueviolet;
+   padding: 10px;
+}
+
+.box2 {
+   background-color: chartreuse;
+   padding-top: 0px;
+   padding-right: 5px;
+   padding-bottom: 0px;
+   padding-left: 5px;
+   /* padding: 0px 5px 0px 5px; */
+   /* padding: 0px 5px --> 0px del eje (Y) y 5px del eje (X) */
+}
+
+.box3 {
+   background-color: pink;
+   margin: 10px;
+}
+
+.box4 {
+   background-color: lightsalmon;
+   margin: 0px 10px;
+   padding: 5px 0px;
+}
+
+.box5 {
+   float: left;
+   width: 30%;
 }
