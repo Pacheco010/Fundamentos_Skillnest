@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #173353;
+    color: white;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+.logo {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitulo_header {
+    font-size: 14px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.menu {
+    background-color: #204875;;
+    padding: 15px;
+    width: 100%;
+}
+
+.enlace {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.enlace:hover {
+    text-decoration: underline;
+}
+
+.contenedor_principal {
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.banner_azul {
+    background-color: #204875;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.banner_azul h2 {
+    margin-bottom: 15px;
+}
+
+.contenedor_tarjetas {
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    background-color: #00A4DE;
+    color: white;
+    margin: 10px;
+    padding: 30px 15px;
+    border-radius: 5px;
+    min-height: 150px;
+}
+
+.box h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.box p {
+    font-size: 13px;
+    line-height: 1.4;
+}
