@@ -1,0 +1,99 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-weight: bold;
+}
+
+body {
+   font-family: Verdana, sans-serif;
+}
+
+.barra-navegacion {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: white;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logotipo {
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: #111827;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+
+}
+
+.nav a {
+   text-decoration: none;
+   color: #4b5563;
+   font-weight: 500;
+
+}
+
+.boton-principal {
+   background-color: #2563eb;
+   color: white;
+   border: none;
+   padding: 12px 24px;
+   font-size: 1rem;
+   font-weight: 600;
+   cursor: pointer;
+   border-radius: 6px;
+}
+
+.btn {
+   cursor: pointer;
+}
+
+.blue {
+   color: #2563eb;
+}
+
+
+
+
+.button-hover {
+   background-color: #1d4ed8;
+}
+
+.seccion-principal {
+   background-color: #F4F7FE;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 50px;
+   padding: 80px 50px;
+}
+
+.contenido-principal {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   flex: 1;
+}
+
+.contenedor-imagen{
+   display: flex;
+   justify-content: center;
+   flex: 1;
+
+}
+
+.contenedor-imagen img {
+   width: 100%;
+   max-width: 500px;
+}
+
+.botones {
+   display: flex;
+   gap: 15px;
+
+}

@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #334155;
+    padding: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.main {
+    padding: 30px;
+
+}
+
+.seccion {
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(100, 100, 100, 0.1);
+}
+
+.contenedor {
+    display: flex;
+    background-color: rgb(233, 233, 233);
+    height: 200px;
+    border: 3px dashed #94a3b8;
+    margin-top: 20px;
+
+}
+
+.caja {
+    width: 80px;
+    height: 80px;
+    background-color: steelblue;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+/*EJEMEPLOS*/
+/*1.- Justify  Content + Gap*/
+.ejemplo1 {
+    justify-content: center;
+    gap: 20px;
+}
+/*2.- Align-Items + Gap*/
+.ejemplo2 {
+    align-items: center;
+    gap: 20px;
+}
+/*3.- Flex-direction + Gap*/
+.ejemplo3 {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+/*4.- Space-Between + Align-Items*/
+.ejemplo4 {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+/*5.- Centrado Completo*/
+.caja-grande {
+    width: 120px;
+    height: 100px;
+
+}
+
+.ejemplo5 {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
