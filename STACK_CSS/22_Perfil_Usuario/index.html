@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Perfil</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <meta name="author" content="leonardopacheco@liceovvh.cl">
+</head>
+<body>
+    <nav class="nav-container">
+        <h1>Perfil</h1>
+        <div class="nav-links">
+            <a href="#">Inicio</a>
+            <a href="#">Mi perfil</a>
+            <a href="#">Conexiones</a>
+            <button class="btn-logout">Cerrar sesion</button>
+        </div>
+    </nav>
+    <main class="main-container">
+        <section class="profile-card">
+            <div class="card-banner"></div>
+            <div class="profile-content">
+                <div class="avatar-container">
+                    <img src="static/images/image.png" 
+                    alt="Avatar" 
+                    class="avatar-img"
+                    onmouseover="this.src='static/images/jane.jpg';" 
+                    onmouseout="this.src='static/images/image.png';">
+                </div>
+                <h2>Jane Doe</h2>
+                <p class="location">Bergen, Noruega</p>
+                <p class="description">Desarrolladora Frontend</p>
+                <p class="skills">Conocimientos en HTML, CSS, JavaScript</p>
+                <a href="#" class="edit-link">⚙️ Editar perfil</a>
+            </div>
+        </section>
+        <aside class="sidebar">
+            <div class="side-card">
+                <div class="card-header">
+                    <h3>Solicitudes de conexión</h3>
+                    <a href="#" class="view-all">Ver todas</a>
+                </div>
+                <ul class="user-list">
+                    <li class="user-item">
+                        <div class="user-info">
+                            <img src="static/images/image.png" class="small-avatar" alt="Steve Jobs">
+                            <span>Steve Jobs</span>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="btn-action accept">✓</button>
+                            <button class="btn-action decline">✕</button>
+                        </div>
+                    </li>
+                    <li class="user-item">
+                        <div class="user-info">
+                            <img src="static/images/image.png" class="small-avatar" alt="Bill Gates">
+                            <span>Bill Gates</span>
+                        </div>
+                        <div class="action-buttons">
+                            <button class="btn-action accept">✓</button>
+                            <button class="btn-action decline">✕</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="side-card">
+                <div class="card-header">
+                    <h3>Tus conexiones</h3>
+                    <a href="#" class="view-all">Ver todas</a>
+                </div>
+                <ul class="user-list">
+                    <li class="user-item">
+                        <div class="user-info">
+                            <img src="static/images/image.png" class="small-avatar" alt="Richard Stallman">
+                            <span>Richard Stallman</span>
+                        </div>
+                    </li>
+                    <li class="user-item">
+                        <div class="user-info">
+                            <img src="static/images/image.png" class="small-avatar" alt="Linus Torvalds">
+                            <span>Linus Torvalds</span>
+                        </div>
+                    </li>
+                    <li class="user-item">
+                        <div class="user-info">
+                            <img src="static/images/image.png" class="small-avatar" alt="Ada Lovelace">
+                            <span>Ada Lovelace</span>
+                        </div>
+                    </li>
+                    <li class="user-item">
+                        <div class="user-info">
+                            <img src="static/images/image.png" class="small-avatar" alt="Grace Hopper">
+                            <span>Grace Hopper</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+    </main>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
