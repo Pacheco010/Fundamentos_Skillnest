@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="leonardopacheco@liceovvh.cl">
+    <title>TacoPalace</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-pt1">
+                <img src="static/images/logo.png" alt="logo de TacoPalace">
+                <h1>Taco</h1>
+                <h2>Palace</h2>
+            </div>
+
+            <div class="memato">
+                <div class="nav-pt2">
+                    <form>
+                        <input type="email" placeholder="correo electronico">
+                        <input id="sesion" onclick="bienvenida() " type="submit" value="Login">
+                    </form>
+                </div>
+
+                <div class="carro">
+                    <img src="static/images/carrito.png" alt="logo carrito">
+                    <p>
+                        <span id="carrito">0</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row-1">
+            <div class="imagen-texto">
+                <img src="static/images/enchiladas.jpg" alt="enchiladas">
+                <p>Enchiladas</p>
+            </div>
+
+            <div class="imagen-texto">
+                <img src="static/images/tacos.jpg" alt="tacos">
+                <p>Tacos</p>
+            </div>
+
+            <div class="imagen-texto">
+                <img src="static/images/flautas.jpg" alt="flautas">
+                <p>Flautas</p>
+            </div>
+
+            <div class="imagen-texto">
+                <img src="static/images/gorditas.jpg" alt="gorditas">
+                <p>Gorditas</p>
+            </div>
+
+            <div class="imagen-texto">
+                <img src="static/images/tostadas.jpg" alt="tostadas">
+                <p>Tostadas</p>
+            </div>
+
+            <div class="imagen-texto">
+                <img src="static/images/enfrijoladas.jpg" alt="enfrijoladas">
+                <p>Enfrijoladas</p>
+            </div>
+        </div>
+        <div class="row-2">
+            <div class="col-1">
+                <div class="tarjeta1">
+                    <div class="text">
+                        <h2>La Mejor Variedad en Platillos de Comida <strong>mexicana</strong></h2>
+                        <h5>Contactanos con <a href="#">servicio</a> a</h5>
+                        <h4>Domicilio</h4>
+                    </div>
+                    <img id="mexicana" src="static/images/comida-mexicana-01.jpg" alt="comida mexicana">
+                </div>
+            </div>
+
+            <div class="col-2">
+                <h2><strong>Recomendados</strong></h2>
+
+                <div class="tarjeta2">
+                    <img src="static/images/orden-tacos.jpg" alt="orden de tacos">
+                    <p>Orden de tacos</p>
+                    <a href="#">Ver mas...</a>
+                    <button onclick="darCompra1()">+</button>
+                </div>
+
+                <div class="tarjeta2">
+                    <img src="static/images/orden-flautas.jpg" alt="orden de flautas">
+                    <p>Orden de flautas</p>
+                    <a href="#">Ver mas...</a>
+                    <button onclick="darCompra2()">+</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

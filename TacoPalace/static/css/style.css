@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 20px;
+    border-bottom: 2px solid #cdcccd;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-pt1, .memato, .nav-pt2 form, .carro {
+    display: flex;
+    align-items: center;
+}
+
+.nav-pt1 h1 {
+    color: #fe9901;
+    margin-left: 10px;
+}
+
+.nav-pt1 h2 {
+    color: #333333;
+    margin-left: 5px;
+}
+
+.nav-pt2 input[type="email"] {
+    padding: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+#sesion {
+    background-color: #fe9901;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.carro img {
+    margin-right: 9px;
+    margin-left: 30px;
+}
+
+#carrito {
+    background-color: #fe9901;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 7px;
+    font-size: 12px;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.row-1 {
+    background-color: #fef1d2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagen-texto {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.imagen-texto img {
+    width: 120px;
+    height: 120px;
+}
+
+.imagen-texto p {
+    margin-top: 5px;
+    color: #666666;
+}
+
+.row-2 {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.col-1 {
+    width: 70%;
+}
+
+.col-2 {
+    width: 30%;
+}
+
+.tarjeta1 {
+    background-color: #bcbfc1;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.text {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.servicio-texto span {
+    color: #e06522;
+    font-weight: bold;
+}
+
+.tarjeta1 img {
+    width: 60%;
+    height: 300px;
+}
+
+.titulo-recomendados {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tarjeta2 {
+    background-color: #ffffff;
+    border: 1px solid #ededed;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.tarjeta2 img {
+    width: 80px;
+    height: 60px;
+}
+
+.tarjeta2-info h3 {
+    font-size: 14px;
+}
+
+.tarjeta2-info a {
+    color: blue;
+    font-size: 12px;
+}
+
+.btn-agregar {
+    background-color: #fe9901;
+    color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
