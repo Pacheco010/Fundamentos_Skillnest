@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="leonardopacheco@liceovvh.cl">
+    <title>Hug Express</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+
+    <!-- Barra de Navegación Superior -->
+    <header class="navbar">
+        <div class="nav-left">
+            <div class="brand">
+                <!-- Reemplaza src con el nombre exacto de tu ícono de logo si lo tienes -->
+                <img src="static/images/logo (2).png" alt="Logo Hug Express" class="logo-icon">
+                <h1>Hug Express</h1>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Buscar Personas">
+                <button type="button" class="btn-search">buscar</button>
+            </div>
+        </div>
+        <div class="nav-right">
+            <a href="#" id="how-it-works">¿Cómo funciona?</a>
+        </div>
+    </header>
+
+    <!-- Ruta de navegación (Breadcrumbs) -->
+    <nav class="breadcrumbs">
+        <!-- Reemplaza src con el nombre exacto de tu ícono de casa si lo tienes -->
+        <img src="static/images/home.png" alt="Inicio" class="home-icon">
+        <span>&gt; Amigos &gt; Enviar Abrazos</span>
+    </nav>
+
+    <!-- Contenedor Principal -->
+    <main class="container">
+        
+        <!-- Columna Izquierda: Lista de Amigos -->
+        <section class="friends-list">
+            
+            <!-- Tarjeta 1: Horacio Oliveira -->
+            <article class="friend-card">
+                <img src="static/images/horacio.png" alt="Horacio Oliveira" class="friend-photo">
+                <div class="friend-info">
+                    <h2>Horacio Oliveira</h2>
+                    <p class="quote">"Soy Horacio, mi libro preferido es Rayuela de Julio Cortázar."</p>
+                    <p class="since">Amigos desde 24/Julio/2024</p>
+                </div>
+                <div class="hug-action">
+                    <p class="hug-count"><span id="hugs-horacio">3</span> abrazo(s)</p>
+                    <button type="button" class="btn-hug" onclick="enviarAbrazo('hugs-horacio')">Enviar Abrazo</button>
+                </div>
+            </article>
+
+            <!-- Tarjeta 2: Aureliano Buendía -->
+            <article class="friend-card">
+                <img src="static/images/aureliano.png" alt="Aureliano Buendía" class="friend-photo">
+                <div class="friend-info">
+                    <h2>Aureliano Buendía</h2>
+                    <p class="quote">"Vivo en Macondo con varias generaciones de mi familia"</p>
+                    <p class="since">Amigos desde 18/Agosto/2024</p>
+                </div>
+                <div class="hug-action">
+                    <p class="hug-count"><span id="hugs-aureliano">2</span> abrazo(s)</p>
+                    <button type="button" class="btn-hug" onclick="enviarAbrazo('hugs-aureliano')">Enviar Abrazo</button>
+                </div>
+            </article>
+
+            <!-- Tarjeta 3: Ricardo Somocurcio -->
+            <article class="friend-card">
+                <img src="static/images/ricardo.png" alt="Ricardo Somocurcio" class="friend-photo">
+                <div class="friend-info">
+                    <h2>Ricardo Somocurcio</h2>
+                    <p class="quote">"Mi sueño es vivir en París y trabajar como traductor"</p>
+                    <p class="since">Amigos desde 10/Agosto/2024</p>
+                </div>
+                <div class="hug-action">
+                    <p class="hug-count"><span id="hugs-ricardo">6</span> abrazo(s)</p>
+                    <button type="button" class="btn-hug" onclick="enviarAbrazo('hugs-ricardo')">Enviar Abrazo</button>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Columna Derecha: Banner Lateral -->
+        <aside class="sidebar-banner">
+            <p class="banner-top-text">
+                Somos la primera plataforma diseñada para enviar abrazos a tus familiares y amigos.
+            </p>
+            <p class="banner-bottom-text">
+                La distancia será mucha pero los abrazos nos unen.
+            </p>
+        </aside>
+
+    </main>
+
+    <!-- Banner Fijo de Cookies -->
+    <footer class="cookie-banner" id="cookie-section">
+        <!-- Reemplaza src con el nombre exacto de tu ícono de galleta si lo tienes -->
+        <img src="static/images/cookies.png" alt="Cookies" class="cookie-icon">
+        <p class="cookie-text">
+            Hug Express utiliza cookies para optimizar la navegación y personalizarla según tus preferencias. Al hacer click en "Aceptar" estás de acuerdo con nuestra <a href="#">política de privacidad</a>.
+        </p>
+        <button type="button" class="btn-accept" id="accept-cookies">Aceptar</button>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
