@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="leonardopacheco@liceovvh.cl">
+    <title>FlorManía</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado Superior -->
+    <header class="top-header">
+        <div class="header-container">
+            <h1 class="logo"><span class="logo-white">Flor</span>Manía</h1>
+            <nav class="main-nav">
+                <a href="#" id="link-envia">Envía Flores</a>
+                <a href="#">Nosotros</a>
+                <button type="button" class="btn-login" id="btn-login">Iniciar Sesión</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Barra Secundaria de Categorías -->
+    <nav class="category-bar">
+        <div class="category-container">
+            <a href="#">Girasoles</a>
+            <a href="#">Rosas</a>
+            <a href="#">Claveles</a>
+            <a href="#">Orquídeas</a>
+            <a href="#">Margaritas</a>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="container">
+
+        <!-- Sección Flor del Mes -->
+        <section class="featured-section">
+            <h2>Flor del Mes</h2>
+            <div class="banner-wrapper">
+                <!-- Reemplaza src con el nombre exacto de la imagen banner descargada -->
+                <img src="static/images/flor-del-mes.jpg" alt="Flor del Mes" class="banner-img">
+            </div>
+        </section>
+
+        <!-- Barra de Resultados -->
+        <div class="results-bar">
+            <p class="results-count">Mostrando 50 resultados</p>
+            <a href="#" class="see-more">Ver más Flores</a>
+        </div>
+
+        <!-- Cuadrícula de Productos (3 Tarjetas) -->
+        <section class="products-grid">
+
+            <!-- Tarjeta 1 -->
+            <article class="product-card">
+                <img src="static/images/ramo-de-rosas.jpg" alt="Ramo de Rosas" class="product-img">
+                <div class="product-footer">
+                    <div class="product-details">
+                        <h3>Ramo de Rosas</h3>
+                        <p class="price">$40.00</p>
+                    </div>
+                    <button type="button" class="btn-buy" onclick="comprarProducto(this)">Comprar</button>
+                </div>
+            </article>
+
+            <!-- Tarjeta 2 -->
+            <article class="product-card">
+                <img src="static/images/arreglo-tulipanes.jpg" alt="Arreglo Tulipanes" class="product-img">
+                <div class="product-footer">
+                    <div class="product-details">
+                        <h3>Arreglo Tulipanes</h3>
+                        <p class="price">$50.00</p>
+                    </div>
+                    <button type="button" class="btn-buy" onclick="comprarProducto(this)">Comprar</button>
+                </div>
+            </article>
+
+            <!-- Tarjeta 3 -->
+            <article class="product-card">
+                <img src="static/images//bouquet-lirios.jpg" alt="Bouquet Lirios" class="product-img">
+                <div class="product-footer">
+                    <div class="product-details">
+                        <h3>Bouquet Lirios</h3>
+                        <p class="price">$25.00</p>
+                    </div>
+                    <button type="button" class="btn-buy" onclick="comprarProducto(this)">Comprar</button>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
